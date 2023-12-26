@@ -1,0 +1,364 @@
+{
+  "nodes": [
+    {
+      "name" : "node1",
+      "from": "частые",
+      "to": "разговоры",
+      "comm": "ako"
+    },
+    {
+      "name" : "node2",
+      "from": "нечастые",
+      "to": "разговоры",
+      "comm": "ako"
+    },
+    {
+      "name" : "node3",
+      "from": "долгие",
+      "to": "разговоры",
+      "comm": "ako"
+    },
+    {
+      "name" : "node4",
+      "from": "недолгие",
+      "to": "разговоры",
+      "comm": "ako"
+    },
+    {
+      "name" : "node5",
+      "from": "да",
+      "to": "использование смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node6",
+      "from": "нет",
+      "to": "использование смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node7",
+      "from": "редко",
+      "to": "общение через смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node8",
+      "from": "иногда",
+      "to": "общение через смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node9",
+      "from": "часто",
+      "to": "общение через смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node10",
+      "from": "100 mins",
+      "to": "пакет минут",
+      "comm": "ako"
+    },
+    {
+      "name" : "node11",
+      "from": "250 mins",
+      "to": "пакет минут",
+      "comm": "ako"
+    },
+    {
+      "name" : "node12",
+      "from": "500 mins",
+      "to": "пакет минут",
+      "comm": "ako"
+    },
+    {
+      "name" : "node13",
+      "from": "0 sms",
+      "to": "пакет смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node14",
+      "from": "100 sms",
+      "to": "пакет смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node15",
+      "from": "250 sms",
+      "to": "пакет смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node16",
+      "from": "500 sms",
+      "to": "пакет смс",
+      "comm": "ako"
+    },
+    {
+      "name" : "node17",
+      "from": "100 mins",
+      "to": "нечастые",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node18",
+      "from": "100 mins",
+      "to": "недолгие",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node19",
+      "from": "250 mins",
+      "to": "частые",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node20",
+      "from": "250 mins",
+      "to": "нечастые",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node21",
+      "from": "250 mins",
+      "to": "долгие",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node22",
+      "from": "250 mins",
+      "to": "недолгие",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node23",
+      "from": "500 mins",
+      "to": "частые",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node24",
+      "from": "500 mins",
+      "to": "долгие",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node25",
+      "from": "0 sms",
+      "to": "нет",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node26",
+      "from": "100 sms",
+      "to": "да",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node27",
+      "from": "100 sms",
+      "to": "редко",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node28",
+      "from": "250 sms",
+      "to": "да",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node29",
+      "from": "250 sms",
+      "to": "иногда",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node30",
+      "from": "500 sms",
+      "to": "да",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node31",
+      "from": "500 sms",
+      "to": "часто",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node32",
+      "from": "Стандарт",
+      "to": "тарифы",
+      "comm": "ako"
+    },
+    {
+      "name" : "node33",
+      "from": "Выгодный",
+      "to": "тарифы",
+      "comm": "ako"
+    },
+    {
+      "name" : "node34",
+      "from": "На связи",
+      "to": "тарифы",
+      "comm": "ako"
+    },
+    {
+      "name" : "node35",
+      "from": "Месседж",
+      "to": "тарифы",
+      "comm": "ako"
+    },
+    {
+      "name" : "node36",
+      "from": "Поминутный",
+      "to": "тарифы",
+      "comm": "ako"
+    },
+    {
+      "name" : "node37",
+      "from": "Премиум",
+      "to": "тарифы",
+      "comm": "ako"
+    },
+    {
+      "name" : "node38",
+      "from": "Выгодный + 100 минут",
+      "to": "Выгодный",
+      "comm": "is-a"
+    },
+    {
+      "name" : "node39",
+      "from": "Выгодный + 200 минут",
+      "to": "Выгодный",
+      "comm": "is-a"
+    },
+    {
+      "name" : "node40",
+      "from": "Выгодный + 100 смс",
+      "to": "Выгодный",
+      "comm": "is-a"
+    },
+    {
+      "name" : "node41",
+      "from": "Выгодный + 200 смс",
+      "to": "Выгодный",
+      "comm": "is-a"
+    },
+    {
+      "name" : "node42",
+      "from": "Поминутный + 100 минут",
+      "to": "Поминутный",
+      "comm": "is-a"
+    },
+    {
+      "name" : "node43",
+      "from": "Поминутный + 200 минут",
+      "to": "Поминутный",
+      "comm": "is-a"
+    },
+    {
+      "name" : "node44",
+      "from": "Стандарт",
+      "to": "250 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node45",
+      "from": "Стандарт",
+      "to": "250 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node46",
+      "from": "Выгодный",
+      "to": "100 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node47",
+      "from": "Выгодный",
+      "to": "100 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node48",
+      "from": "На связи",
+      "to": "500 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node49",
+      "from": "На связи",
+      "to": "250 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node50",
+      "from": "Месседж",
+      "to": "250 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node51",
+      "from": "Месседж",
+      "to": "500 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node52",
+      "from": "Поминутный",
+      "to": "0 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node53",
+      "from": "Премиум",
+      "to": "500 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node54",
+      "from": "Премиум",
+      "to": "500 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node55",
+      "from": "Выгодный + 100 минут",
+      "to": "250 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node56",
+      "from": "Выгодный + 200 минут",
+      "to": "500 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node57",
+      "from": "Выгодный + 100 смс",
+      "to": "250 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node58",
+      "from": "Выгодный + 200 смс",
+      "to": "500 sms",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node59",
+      "from": "Поминутный + 100 минут",
+      "to": "250 mins",
+      "comm": "has-a"
+    },
+    {
+      "name" : "node60",
+      "from": "Поминутный + 200 минут",
+      "to": "500 mins",
+      "comm": "has-a"
+    }
+  ]
+}
